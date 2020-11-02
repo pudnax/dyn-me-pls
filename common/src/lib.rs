@@ -17,6 +17,9 @@ pub struct FrameContext {
 }
 
 impl FrameContext {
+    /// Unsafety
+    /// Since Rust doesn't have stable ABI we shouldn't expose rusty slices
+    /// instead of pointers on data.
     pub fn pixels(&mut self) -> &mut [Pixel] {
         unsafe { std::slice::from_raw_parts_mut(self.pixels, self.width * self.height) }
     }
