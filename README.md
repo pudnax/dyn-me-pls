@@ -22,4 +22,4 @@ cargo run --bin gfx-reload
 
 After this you can modify `greet-rs/src/lib.rs` for hot-reloading.
 
-Works only on Linux. It's not a library -3-
+Works only on Linux*. It's not a library -3-
