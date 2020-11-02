@@ -11,7 +11,7 @@ reload code on the fly without closing down the application.
 Terminal №1
 
 ```Bash
-caargo watch -x build
+cargo watch -x build
 ```
 
 Terminal №2
