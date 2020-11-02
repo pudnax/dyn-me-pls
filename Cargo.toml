@@ -1,0 +1,3 @@
+[workspace]
+members = ["rshared", "rdyn", "rdyn-3p", "greet-rs",
+		   "compromise", "live-reload", "common", "gfx-reload"]

@@ -1,0 +1,15 @@
+[package]
+name = "gfx-reload"
+version = "0.1.0"
+authors = ["Alex Komissarov <k.a.komissar@gmail.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+common = { path = "./../common/" }
+compromise = { path = "./../compromise/" }
+minifb = "0.19.1"
+notify = "5.0.0-pre.3"
+argh = "0.1.4"
+libloading = "0.6.5"
